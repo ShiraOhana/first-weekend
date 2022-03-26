@@ -1,0 +1,84 @@
+body {
+  font-size: 16px;
+  line-height: 1.6em;
+  font-family: futura-pt;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: rgba(29, 29, 29, 0.7);
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  padding: 15px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px;
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  padding: 14px;
+}
+nav a:hover {
+  transition: ease-in-out;
+  color: rgb(145, 140, 140);
+}
+.figure {
+  width: 450px;
+  height: 600px;
+  float: left;
+  margin-left: 80px;
+}
+.title,
+p {
+  color: black;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  float: left;
+}
+p {
+  float: right;
+  font-size: 18px;
+  padding: 130px;
+  color: rgba(29, 29, 29, 0.7);
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  font-size: 51px;
+  letter-spacing: 10px;
+  font-weight: bolder;
+}
+footer a {
+  color: rgba(28, 28, 28, 0.69);
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 1.7em;
+}
+.credits {
+  font-size: 14px;
+}
+i {
+  padding: 10px;
+  font-size: 25px;
+}
+i:hover {
+  color: black;
+}
+.social {
+  color: black;
+}
+.social:hover {
+  color: rgb(145, 140, 140);
+}
